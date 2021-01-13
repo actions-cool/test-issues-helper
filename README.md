@@ -1,4 +1,4 @@
-# test-ci
+# test ci
 
 - For: https://github.com/actions-cool/issues-helper
 - Branch: `up`
