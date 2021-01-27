@@ -1,6 +1,6 @@
 # Test ci
 
-- For: https://github.com/actions-cool/issues-helper
+- For: https://github.com/actions-cool/issues-helper/
 - Branch: `up`
 
 ## Issues
