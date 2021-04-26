@@ -1,4 +1,4 @@
-# Test ci
+# Test Action
 
 - For: https://github.com/actions-cool/issues-helper
 
