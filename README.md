@@ -1,7 +1,5 @@
 # Test Action
 
-- For: https://github.com/actions-cool/issues-helper
-
 ## Issues
 
 ### 新开 issue 检查是否触发 welcome
