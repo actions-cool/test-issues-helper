@@ -1,4 +1,4 @@
-# Test Action
+# Test Actions
 
 ## Issues
 
