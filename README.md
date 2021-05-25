@@ -2,7 +2,7 @@
 
 ## Issues
 
-### 新开 issue 检查是否触发 welcome2
+### 新开 issue 检查是否触发 welcome2p
 
 - 加 emoji
 - comment 回复
