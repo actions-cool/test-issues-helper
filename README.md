@@ -10,7 +10,7 @@
 - label `welcome1` `welcome2`
 - 删除该 issue，确保下次可测试
 
-### 新开 issue 输入标题官网挂了
+### 新开 issue 输入标题官网挂了2
 
 - 查看是否触发校验
 - 回复评论
