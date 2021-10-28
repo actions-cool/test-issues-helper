@@ -1,7 +1,9 @@
 name: Test Release Helper
 
 on:
-  create
+  push:
+    tags:
+      - '*'
 
 jobs:
   release-helper:
@@ -9,7 +11,6 @@ jobs:
     if: github.event.ref_type == 'tag' && (contains(github.event.ref, '-') == false)
     steps:
       - name: make release
-        if: github.event.ref_type == 'tag'
         uses: actions-cool/release-helper@up
         with:
           triger: 'tag'
