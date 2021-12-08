@@ -1,9 +1,6 @@
 name: Test Release Helper
 
-on:
-  push:
-    tags:
-      - '*'
+on: push
 
 jobs:
   release-helper:
