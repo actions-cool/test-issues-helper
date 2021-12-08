@@ -11,7 +11,7 @@ jobs:
     if: github.event.ref_type == 'tag' && (contains(github.event.ref, '-') == false)
     steps:
       - name: make release
-        uses: actions-cool/release-helper@up
+        uses: actions-cool/release-helper@main
         with:
           triger: 'tag'
           changelogs: 'CHANGELOG.en-US.md, CHANGELOG.zh-CN.md'
