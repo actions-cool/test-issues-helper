@@ -1,6 +1,6 @@
 name: Test Release Helper
 
-on: push
+on: create
 
 jobs:
   release-helper:
