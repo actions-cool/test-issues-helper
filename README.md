@@ -2,7 +2,7 @@
 
 ## Issues Helper
 
-### 新开 issue 检查是否触发 welcome
+### 新开 issue 检查是否触发 welcome 1
 
 - 加 emoji
 - comment 回复
