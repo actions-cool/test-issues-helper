@@ -59,3 +59,8 @@
 ### 测试 label `lock-issue`
 
 - 是否锁定 issue hot 原因
+
+### 保留若干 issues
+
+- 测试 🤔 Need Reproduce 是否 1 天非活跃关闭
+- 测试 needs-more-info 是否 2 天非活跃关闭
