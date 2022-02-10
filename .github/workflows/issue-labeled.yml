@@ -34,7 +34,7 @@ jobs:
 
       - name: remove labels
         if: github.event.label.name == 'remove-labels'
-        uses: actions-cool/issues-helper@v2
+        uses: actions-cool/issues-helper@up
         with:
           actions: 'remove-labels'
           token: ${{ secrets.GITHUB_TOKEN }}
