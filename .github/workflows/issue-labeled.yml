@@ -52,16 +52,6 @@ jobs:
           username: ${{ github.event.issue.user.login }}
           check-bot: true
           require: 'write'
-
-      - name: duplicate
-        if: github.event.label.name == 'duplicate'
-        uses: actions-cool/issues-helper@up
-        with:
-          actions: 'remove-labels'
-          token: ${{ secrets.GITHUB_TOKEN }}
-          issue-number: ${{ github.event.issue.number }}
-          comment-emoji: '+1, -1'
-          labels: 'x1,x2'
           
       - name: add-assignees-1
         if: github.event.label.name == 'add-assignees-1'
