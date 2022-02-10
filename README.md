@@ -36,7 +36,7 @@
 
 - 测试是否可以移除 `x1` or `x2`
 
-### 测试 label `month-statistics`
+### ~测试 label `month-statistics`~
 
 - 查看是否可以新增 issue 统计
 
@@ -47,7 +47,7 @@
 - 是否回复
 - 是否增加 emoji
 
-### 更新 `incative` issue
+### ~更新 `incative` issue~
 
 - 查看是否会移除 `incative` label
 
