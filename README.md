@@ -54,6 +54,7 @@
 ### 测试 label `close-issues`
 
 - 是否可以把 `🤔 Need Reproduce` 的 issue 关闭
+- 是否评论，是否增加 emoji
 
 ### 测试 label `lock-issue`
 
