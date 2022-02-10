@@ -10,11 +10,10 @@ jobs:
     steps:
       - name: month-statistics
         if: github.event.label.name == 'month-statistics'
-        uses: actions-cool/issues-helper@up
+        uses: actions-cool/issues-month-statistics@main
         with:
-          actions: 'month-statistics'
-          token: ${{ secrets.GITHUB_TOKEN }}
-          labels: 'month-statistics'
+          labels: 'x1'
           count-lables: 'true'
           count-comments: 'true'
- 
+          emoji: '+1'
+          assigness: 'xrkffgg'
