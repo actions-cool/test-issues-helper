@@ -80,7 +80,7 @@ jobs:
           actions: 'add-assignees'
           token: ${{ secrets.GITHUB_TOKEN }}
           issue-number: ${{ github.event.issue.number }}
-          assignees: 'xrkffgg,zoo-js-bot,HuaRin'
+          assignees: 'xrkffgg,zoo-js-bot,ajuner'
           random-to: 2
           
       - name: lock
