@@ -16,5 +16,4 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           labels: '🤔 Need Reproduce'
           body: 'close issues'
-          comment-emojis: '+1'
-          issue-emojis: '+1'
+          emoji: '+1'
