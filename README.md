@@ -54,3 +54,7 @@
 ### 测试 label `close-issues`
 
 - 是否可以把 `🤔 Need Reproduce` 的 issue 关闭
+
+### 测试 label `lock-issue`
+
+- 是否锁定 issue hot 原因
