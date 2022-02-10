@@ -14,4 +14,4 @@ jobs:
         with:
           actions: 'check-inactive'
           body: 'add inactive'
-          contents: '+1'
+          emoji: '+1'
