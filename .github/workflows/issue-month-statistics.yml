@@ -16,4 +16,4 @@ jobs:
           count-lables: 'true'
           count-comments: 'true'
           emoji: '+1'
-          assigness: 'xrkffgg'
+          assignees: 'xrkffgg'
