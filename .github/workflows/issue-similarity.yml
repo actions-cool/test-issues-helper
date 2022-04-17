@@ -6,7 +6,9 @@ on:
     
 jobs:
   similarity:
-        uses: actions-cool/issues-similarity-analysis@main
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions-cool/issues-similarity-analysis@main
         with:
           filter-threshold: 0.5
           title-excludes: '🐛[BUG], 👑 [需求]'
