@@ -13,4 +13,4 @@ jobs:
           filter-threshold: 0.5
           title-excludes: '🐛[BUG], 👑 [需求]'
           comment-title: '### See'
-          comment-body: 'index.{similarity} #${number}'
+          comment-body: '${index}. ${similarity} #${number}'
