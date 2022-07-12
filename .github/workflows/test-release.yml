@@ -8,7 +8,7 @@ jobs:
     if: github.event.ref_type == 'tag' && (contains(github.event.ref, '-') == false)
     steps:
       - name: make release
-        uses: actions-cool/release-helper@up
+        uses: actions-cool/release-helper@main
         with:
           triger: 'tag'
           changelogs: 'CHANGELOG.en-US.md, CHANGELOG.zh-CN.md'
@@ -18,4 +18,5 @@ jobs:
           msg-poster: 'https://gw.alipayobjects.com/mdn/rms_08e378/afts/img/A*zx7LTI_ECSAAAAAAAAAAAABkARQnAQ'
           msg-footer: '<br />点击 [**更多**]({{url}}) 查看详情.'
           prettier: true
+          antd-conch-msg: '当前🐟：'
           prerelease-filter: '-, a, b, A, B'
