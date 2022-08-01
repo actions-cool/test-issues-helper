@@ -41,7 +41,7 @@ jobs:
   
   test-u2:
     runs-on: ubuntu-latest
-    if: github.event.issue.state == 'close' && (contains(github.event.issue.body, 'https://github.com') == true || contains(github.event.issue.body, 'https://stackblitz.com') == true)
+    if: github.event.issue.state == 'closed' && (contains(github.event.issue.body, 'https://github.com') == true || contains(github.event.issue.body, 'https://stackblitz.com') == true)
     steps:
       - uses: actions-cool/maintain-one-comment@main
           
