@@ -28,6 +28,27 @@ jobs:
 
             你好 @${{ github.event.issue.user.login }}，为了能够进行高效沟通，我们对 issue 有一定的格式要求，你的 issue 因为不符合要求而被自动关闭。你可以通过 [issue 助手](http://new-issue.ant.design) 来创建 issue 以方便我们定位错误。谢谢配合！
 
+  test-u1:
+    runs-on: ubuntu-latest
+    if: github.event.issue.state == 'open' && contains(github.event.issue.body, 'https://github.com') == false && contains(github.event.issue.body, 'https://stackblitz.com') == false
+    steps:
+      - uses: actions-cool/maintain-one-comment@main
+        with:
+          body: 由于缺乏足够的信息，我们暂时关闭了该 Issue。请提供 最小重现 以重新开启 Issue。谢谢。
+      - uses: actions-cool/issues-helper@main
+        with:
+          actions: close-issue
+  
+  test-u2:
+    runs-on: ubuntu-latest
+    if: github.event.issue.state == 'close' && (contains(github.event.issue.body, 'https://github.com') == ture || contains(github.event.issue.body, 'https://stackblitz.com') == true)
+    steps:
+      - uses: actions-cool/maintain-one-comment@main
+          
+      - uses: actions-cool/issues-helper@main
+        with:
+          actions: open-issue
+  
   check-issue:
     runs-on: ubuntu-latest
     steps:
