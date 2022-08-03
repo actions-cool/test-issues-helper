@@ -12,6 +12,7 @@ jobs:
         run: echo 'same'
       - if: github.actor != github.event.issue.user.login
         run: echo 'no same'
+      - run: echo ${{ github.triggering_actor }}
   check-helper:
     runs-on: ubuntu-latest
     if: contains(github.event.issue.body, 'ant-design-issue-helper') == false
