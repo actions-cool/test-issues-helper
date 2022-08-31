@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: mark-duplicate
-        uses: actions-cool/issues-helper@main
+        uses: actions-cool/issues-helper@test
         with:
           actions: 'mark-duplicate'
           duplicate-labels: 'duplicate'
