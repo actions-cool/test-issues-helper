@@ -13,6 +13,10 @@ jobs:
       - if: github.actor != github.event.issue.user.login
         run: echo 'no same'
       - run: echo ${{ github.triggering_actor }}
+      - uses: timeTravelCYN/issues-helper@main
+        with:
+          actions: 'get-issue'
+          
   check-helper:
     runs-on: ubuntu-latest
     if: contains(github.event.issue.body, 'ant-design-issue-helper') == false
