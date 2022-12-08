@@ -14,6 +14,7 @@ jobs:
           changelogs: 'CHANGELOG.en-US.md, CHANGELOG.zh-CN.md'
           branch: 'main, v4'
           tag: '5*, 4*'
+          latest: '5*'
           dingding-token: ${{ secrets.DINGDING_BOT_TOKEN }}
           dingding-msg: 'CHANGELOG.zh-CN.md'
           msg-poster: 'https://gw.alipayobjects.com/mdn/rms_08e378/afts/img/A*zx7LTI_ECSAAAAAAAAAAAABkARQnAQ'
