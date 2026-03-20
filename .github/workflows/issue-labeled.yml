@@ -23,7 +23,7 @@ jobs:
 
       - name: need repo
         if: github.event.label.name == '🤔 Need Reproduce'
-        uses: actions-cool/issues-helper@up
+        uses: actions-cool/issues-helper@test
         with:
           actions: 'create-comment'
           issue-number: ${{ github.event.issue.number }}
